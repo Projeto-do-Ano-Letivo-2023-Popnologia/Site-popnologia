@@ -69,7 +69,13 @@ header {
   margin: 0;
   padding-top: 24px;
   padding-bottom: 40px;
-  box-shadow: 0 10px 5px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 h1 {
   font-family: var(--fonte-titulos);
@@ -90,21 +96,22 @@ header > p#slogan {
 
 /* MAIN */
 main {
-  margin-top: -20px;
+  margin-top: 180px;
   margin-left: 0;
   margin-right: 0;
 }
 article {
   text-align: justify;
 }
-p{
+p {
   font-size: 1.2em;
 }
 /* Section com imagem e article transparente */
-section.background-imagem{
-  padding: 20px 30px;
+section.background-imagem {
+  padding: 100px 30px;
 }
-section.background-imagem > article {
+section.background-imagem > article,
+section.background-imagem > aside {
   padding: 15px;
 
   background-color: rgba(0, 0, 0, 0.5);
@@ -113,4 +120,16 @@ section.background-imagem > article {
   border-radius: 10px;
 
   backdrop-filter: blur(20px);
+  margin-bottom: 10px;
+
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+section.background-imagem > article {
+  margin-bottom: 50px;
+}
+section.background-imagem > aside {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1em;
 }
