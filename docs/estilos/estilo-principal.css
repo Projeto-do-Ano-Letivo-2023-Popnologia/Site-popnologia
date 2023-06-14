@@ -89,3 +89,28 @@ header > p#slogan {
 /* NAV */
 
 /* MAIN */
+main {
+  margin-top: -20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+article {
+  text-align: justify;
+}
+p{
+  font-size: 1.2em;
+}
+/* Section com imagem e article transparente */
+section.background-imagem{
+  padding: 20px 30px;
+}
+section.background-imagem > article {
+  padding: 15px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+
+  border-radius: 10px;
+
+  backdrop-filter: blur(20px);
+}
