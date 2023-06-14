@@ -49,3 +49,43 @@
   --fonte-titulos: "Gravidaz", "Lato", sans-serif;
   --fonte-texto: "Lato", Arial, Helvetica, sans-serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: var(--fonte-texto);
+}
+
+/* HEADER */
+header {
+  /* background-image: linear-gradient(to right, var(--gradiente-colorido)); */
+  background-image: linear-gradient(to right, var(--cor01), var(--cor02));
+
+  border-radius: 0 0 20px 20px;
+
+  text-align: center;
+
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  box-shadow: 0 10px 5px 2px rgba(0, 0, 0, 0.5);
+}
+h1 {
+  font-family: var(--fonte-titulos);
+  font-weight: normal;
+  font-size: 3.1em;
+
+  margin: 0 6px;
+}
+header > p#slogan {
+  font-family: var(--fonte-titulos);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.3em;
+
+  margin-top: 10px;
+}
+/* NAV */
+
+/* MAIN */
