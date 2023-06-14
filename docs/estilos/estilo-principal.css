@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Fontes baixadas */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+@font-face {
+  font-family: Gravidaz;
+  src: url(../fontes/Gravidaz.otf) format("opentype");
+  font-weight: normal;
+}
+
+/* Configurações padrão */
+:root {
+  /* PALETA DE CORES */
+  /* Tema colorido */
+  --cor01: #2b3a67;
+  --cor02: #004c5d;
+  --cor03: #004569;
+  --cor04: #0050a4;
+  --cor05: #285238;
+  /* Tema claro */
+  --cor06: #f2f2f2;
+  --cor07: #ededed;
+  --cor08: #e9e7e7;
+  --cor09: #e3e2e1;
+  --cor10: #dddddb;
+  --cor-letra-preta: #0e0e0e;
+  /* Tema escuro */
+  --cor11: #1c1c1c;
+  --cor12: #292929;
+  --cor13: #373737;
+  --cor14: #464646;
+  --cor15: #555555;
+  --cor-letra-branca: #d9d9d9;
+
+  /* Gradientes */
+  --gradiente-colorido: var(--cor01), var(--cor02), var(--cor03), var(--cor04), var(--cor05);
+  --gradiente-claro: var(--cor06), var(--cor07), var(--cor08), var(--cor09), var(--cor10);
+  --gradiente-escuro: var(--cor11), var(--cor12), var(--cor13), var(--cor14), var(--cor15);
+
+  /* CORES EM USO */
+  --cor-fundo: var(--cor10);
+  --cor-texto: var(--cor-letra-preta);
+
+  --cor-titulo-01: var(--cor01);
+  --cor-titulo-02: var(--cor05);
+
+  /* FONTES */
+  --fonte-titulos: "Gravidaz", "Lato", sans-serif;
+  --fonte-texto: "Lato", Arial, Helvetica, sans-serif;
+}
