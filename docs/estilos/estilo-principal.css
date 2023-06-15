@@ -125,7 +125,13 @@ article {
 p {
   font-size: 1.2em;
 }
-main > article p {
+article p {
+  margin: 10px;
+}
+/* Negrito */
+strong {
+  color: var(--cor03);
+  font-weight: 700;
 }
 /* Section com imagem e article transparente */
 section.background-imagem {
