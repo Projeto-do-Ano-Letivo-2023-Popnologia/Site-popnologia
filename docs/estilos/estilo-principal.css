@@ -81,7 +81,7 @@ h3 {
 }
 /* HEADER */
 header {
-  background-image: linear-gradient(to right, var(--cor01), var(--cor02));
+  background-image: linear-gradient(to right, var(--gradiente-colorido));
 
   margin: 0;
   color: var(--cor10);
@@ -134,7 +134,7 @@ article p {
 }
 /* Negrito */
 strong {
-  color: var(--cor03);
+  color: var(--cor05);
   font-weight: 700;
 }
 /* Section com imagem e article transparente */
