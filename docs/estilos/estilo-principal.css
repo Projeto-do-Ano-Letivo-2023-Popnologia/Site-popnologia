@@ -57,28 +57,36 @@
   font-family: var(--fonte-texto);
 }
 
+/* Títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fonte-titulos);
+  text-align: center;
+}
+h2 {
+  color: var(--cor01);
+}
+h3 {
+  color: var(--cor05);
+}
 /* HEADER */
-header {
-  /* background-image: linear-gradient(to right, var(--gradiente-colorido)); */
+header,
+nav {
   background-image: linear-gradient(to right, var(--cor01), var(--cor02));
 
-  border-radius: 0 0 20px 20px;
-
+  margin: 0;
+}
+header {
   text-align: center;
 
-  margin: 0;
   padding-top: 24px;
   padding-bottom: 40px;
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
 }
 h1 {
-  font-family: var(--fonte-titulos);
   font-weight: normal;
   font-size: 3.1em;
 
@@ -93,10 +101,14 @@ header > p#slogan {
   margin-top: 10px;
 }
 /* NAV */
-
+nav {
+  z-index: 2;
+  border-radius: 0 0 20px 20px;
+  /* box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5); */
+}
 /* MAIN */
 main {
-  margin-top: 180px;
+  margin-top: -27px;
   margin-left: 0;
   margin-right: 0;
 }
