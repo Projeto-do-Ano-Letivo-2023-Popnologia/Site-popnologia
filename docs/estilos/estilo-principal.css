@@ -107,6 +107,7 @@ header > p#slogan {
   font-size: 1.3em;
 
   margin-top: 10px;
+  font-variant: small-caps;
 }
 /* NAV */
 nav {
