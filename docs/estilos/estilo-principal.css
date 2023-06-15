@@ -74,11 +74,12 @@ h3 {
   color: var(--cor05);
 }
 /* HEADER */
-header,
-nav {
+header {
   background-image: linear-gradient(to right, var(--cor01), var(--cor02));
 
   margin: 0;
+  color: var(--cor10);
+  border-radius: 0 0 20px 20px;
 }
 header {
   text-align: center;
@@ -102,21 +103,26 @@ header > p#slogan {
 }
 /* NAV */
 nav {
-  z-index: 2;
-  border-radius: 0 0 20px 20px;
-  /* box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5); */
+  display: none;
 }
 /* MAIN */
 main {
-  margin-top: -27px;
+  border-radius: 20px 20px 0 0;
+  margin-top: -20px;
   margin-left: 0;
   margin-right: 0;
+
+  padding-left: 6px;
+  padding-right: 6px;
 }
 article {
   text-align: justify;
 }
 p {
   font-size: 1.2em;
+}
+main > article p {
+
 }
 /* Section com imagem e article transparente */
 section.background-imagem {
