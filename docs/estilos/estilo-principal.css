@@ -56,6 +56,9 @@
 
   font-family: var(--fonte-texto);
 }
+body {
+  background-color: var(--cor-fundo);
+}
 
 /* Títulos */
 h1,
@@ -69,6 +72,8 @@ h6 {
 }
 h2 {
   color: var(--cor01);
+  font-size: 2.5em;
+  font-weight: 500;
 }
 h3 {
   color: var(--cor05);
@@ -111,18 +116,16 @@ main {
   margin-top: -20px;
   margin-left: 0;
   margin-right: 0;
-
-  padding-left: 6px;
-  padding-right: 6px;
 }
 article {
   text-align: justify;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 p {
   font-size: 1.2em;
 }
 main > article p {
-
 }
 /* Section com imagem e article transparente */
 section.background-imagem {
@@ -150,4 +153,14 @@ section.background-imagem > aside {
   text-align: center;
   font-weight: bolder;
   font-size: 1.1em;
+}
+/* DIVs após imagem com efeito parallax */
+.depois-imagem-fixa {
+  margin-top: -10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 19px;
+
+  background-color: var(--cor-fundo);
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5);
 }
