@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+/* Links em elementos */
+div.elementos {
+  background-color: var(--cor11);
+  width: 92vw;
+  height: 124px;
+  border-radius: 10px;
+  color: var(--cor07);
+}
+span.icone-elementos {
+  font-size: 100px;
+}
+
 section#introducao {
   background: url(../imagens/mulher-celular-mobile.jpg) center center no-repeat fixed;
   background-size: cover;
