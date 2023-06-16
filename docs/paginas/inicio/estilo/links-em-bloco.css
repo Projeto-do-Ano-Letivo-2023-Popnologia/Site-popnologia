@@ -34,3 +34,12 @@ div.link > p {
 span.icone-elementos {
   font-size: 75px;
 }
+/* Ao passar link em cima */
+a.bloco-link:hover > div.elementos {
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+
+  transition: 2s;
+}
+a.bloco-link:hover div.icone {
+  background-image: linear-gradient(to top left, var(--gradiente-colorido));
+}

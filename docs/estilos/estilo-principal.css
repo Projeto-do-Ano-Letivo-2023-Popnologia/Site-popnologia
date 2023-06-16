@@ -165,7 +165,7 @@ section.background-imagem > aside {
 }
 /* DIVs após imagem com efeito parallax */
 .depois-imagem-fixa {
-  margin-top: -10px;
+  margin-top: -15px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding: 19px;
