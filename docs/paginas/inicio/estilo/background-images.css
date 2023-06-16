@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+section#introducao {
+  background: url(../imagens/mulher-celular-mobile.jpg) center center no-repeat fixed;
+  background-size: cover;
+}

@@ -34,9 +34,3 @@ div.link > p {
 span.icone-elementos {
   font-size: 75px;
 }
-
-/* Backgrounds */
-section#introducao {
-  background: url(../imagens/mulher-celular-mobile.jpg) center center no-repeat fixed;
-  background-size: cover;
-}
