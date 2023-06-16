@@ -1,17 +1,41 @@
 @charset "UTF-8";
 
 /* Links em elementos */
+
 div.elementos {
   background-color: var(--cor11);
   width: 92vw;
   height: 124px;
   border-radius: 10px;
   color: var(--cor07);
+  margin-bottom: 14px;
+
+  display: flex; /*Filhos exibidos em linha*/
+  align-items: center; /*Alinha os elementos verticalmente*/
+}
+div.icone {
+  height: 65px;
+  width: 65px;
+
+  background-image: linear-gradient(to top right, var(--gradiente-colorido));
+  padding: 19px;
+  margin: 12px;
+  border-radius: 50%;
+  /* Alinhar icone dentro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.link > p {
+  font-family: var(--fonte-titulos);
+  font-size: 2.25em;
+  text-decoration: none;
 }
 span.icone-elementos {
-  font-size: 100px;
+  font-size: 75px;
 }
 
+/* Backgrounds */
 section#introducao {
   background: url(../imagens/mulher-celular-mobile.jpg) center center no-repeat fixed;
   background-size: cover;
