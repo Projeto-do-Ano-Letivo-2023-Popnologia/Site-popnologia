@@ -128,7 +128,6 @@ span#menu-icone {
 /* MAIN */
 main {
   border-radius: 20px 20px 0 0;
-  margin-top: -20px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -150,7 +149,10 @@ strong {
 }
 /* Section com imagem e article transparente */
 section.background-imagem {
+  margin-top: 20px;
   padding: 100px 30px;
+  border-radius: 20px 20px 0 0;
+  box-shadow: inset 0px 20px 20px 5px rgba(0, 0, 0, 0.5);
 }
 section.background-imagem > article,
 section.background-imagem > aside {
