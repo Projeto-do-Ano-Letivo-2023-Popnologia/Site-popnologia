@@ -107,7 +107,8 @@ header > p#slogan {
   font-variant: small-caps;
 }
 /* NAV */
-nav {
+
+nav > div#menu-mobile-botao {
   position: fixed;
   z-index: 2; /*Não ser sobreposto por outros elementos*/
 
@@ -119,15 +120,66 @@ nav {
   top: 140px;
   right: 0;
 }
-nav > button {
+div#menu-mobile-botao > button,
+div#menu-mobile-aberto > button {
   background: transparent;
   border: none;
   cursor: pointer;
 }
-span#menu-icone {
+#menu-mobile-abrir > span {
   padding: 5px;
   font-size: 40px;
   color: white;
+}
+span#menu-mobile-abrir {
+  display: inline-block;
+}
+span#menu-mobile-fechar {
+  font-size: 40px;
+  color: white;
+  margin: auto;
+  width: 75vw;
+  background-image: linear-gradient(to right, var(--gradiente-colorido));
+  border-radius: 5px;
+}
+nav > div#menu-mobile-aberto {
+  display: none;
+  position: fixed;
+  top: 10vh; /*Altura do menu nav responsivo*/
+  left: 10vw;
+  width: 80vw;
+
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  z-index: 2;
+  text-align: center;
+
+  padding: 15px 5px;
+}
+nav > div#menu-mobile-aberto li {
+  align-items: center;
+  list-style: none;
+  padding: 5px;
+  margin: 5px 20px;
+  width: 50;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: 1s;
+}
+nav > div#menu-mobile-aberto li > a {
+  color: var(--cor10);
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+nav > div#menu-mobile-aberto li > a > span {
+  display: inline;
+}
+nav > div#menu-mobile-aberto li:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(to right, var(--gradiente-colorido));
+  transition: 1s;
 }
 
 /* MAIN */
