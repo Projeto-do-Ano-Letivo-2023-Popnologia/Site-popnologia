@@ -111,7 +111,19 @@ header > p#slogan {
 }
 /* NAV */
 nav {
-  display: none;
+  position: fixed;
+  z-index: 2; /*Não ser sobreposto por outros elementos*/
+
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px 0 0 10px;
+
+  display: flex;
+  top: 140px;
+  right: 0;
+}
+span#menu-icone {
+  font-size: 3em;
 }
 /* MAIN */
 main {
