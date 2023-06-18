@@ -84,13 +84,10 @@ header {
 
   margin: 0;
   color: var(--cor10);
-  border-radius: 0 0 20px 20px;
-}
-header {
   text-align: center;
 
   padding-top: 24px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
@@ -149,10 +146,8 @@ strong {
 }
 /* Section com imagem e article transparente */
 section.background-imagem {
-  margin-top: 20px;
   padding: 100px 30px;
-  border-radius: 20px 20px 0 0;
-  box-shadow: inset 0px 20px 20px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 section.background-imagem > article,
 section.background-imagem > aside {
