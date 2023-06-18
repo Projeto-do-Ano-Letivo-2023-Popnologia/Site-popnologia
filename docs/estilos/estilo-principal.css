@@ -142,6 +142,10 @@ span#menu-mobile-fechar {
   background-image: linear-gradient(to right, var(--gradiente-colorido));
   border-radius: 5px;
 }
+span#menu-mobile-fechar:hover {
+  background-image: linear-gradient(to left, var(--gradiente-colorido));
+  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.25);
+}
 nav > div#menu-mobile-aberto {
   display: none;
   position: fixed;
@@ -156,6 +160,7 @@ nav > div#menu-mobile-aberto {
   text-align: center;
 
   padding: 15px 5px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 nav > div#menu-mobile-aberto li {
   align-items: center;
