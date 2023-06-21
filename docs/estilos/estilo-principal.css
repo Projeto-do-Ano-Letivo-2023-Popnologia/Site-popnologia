@@ -174,7 +174,8 @@ div#menu-lista-links li {
 
   transition: 1s;
 }
-div#menu-lista-links li > a {
+div#menu-lista-links li > a,
+li#pagina-atual {
   color: var(--cor10);
   text-transform: uppercase;
   font-size: 1.5em;
@@ -182,7 +183,8 @@ div#menu-lista-links li > a {
 div#menu-lista-links li > a > span {
   display: inline;
 }
-div#menu-lista-links li:hover {
+div#menu-lista-links li:hover,
+li#pagina-atual {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
   background-image: linear-gradient(to right, var(--gradiente-colorido));
   transition: 1s;
