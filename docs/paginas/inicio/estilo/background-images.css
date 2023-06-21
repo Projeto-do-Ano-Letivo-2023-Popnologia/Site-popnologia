@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
-section#introducao {
-  background: url(../imagens/capa-mobile.jpg) center center no-repeat fixed;
+section.background-imagem {
+  background-position: center top;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+}
+section#introducao {
+  background-image: url(../imagens/capa-mobile.jpg);
 }
