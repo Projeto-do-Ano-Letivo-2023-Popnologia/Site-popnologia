@@ -109,6 +109,7 @@ header > p#slogan {
 /* NAV */
 
 nav > div#menu-mobile-botao {
+  /* div onde fica botão do menu hamburguinho */
   position: fixed;
   z-index: 2; /*Não ser sobreposto por outros elementos*/
 
@@ -122,19 +123,20 @@ nav > div#menu-mobile-botao {
 }
 div#menu-mobile-botao > button,
 div#menu-lista-links > button {
+  /* Botão de abrir e fechar o menu hamburguinho */
   background: transparent;
   border: none;
   cursor: pointer;
 }
 #menu-mobile-abrir > span {
+  /* Ícone menu hamburguinho (para abrir) */
   padding: 5px;
   font-size: 40px;
   color: white;
 }
-span#menu-mobile-abrir {
-  display: inline-block;
-}
+
 span#menu-mobile-fechar {
+  /* Ícone menu hamburguinho (para fechar) */
   font-size: 40px;
   color: white;
   margin: auto;
@@ -143,10 +145,12 @@ span#menu-mobile-fechar {
   border-radius: 5px;
 }
 span#menu-mobile-fechar:hover {
+  /* Ícone do menu hamburguinho (para fechar) com mouse passando em cima */
   background-image: linear-gradient(to left, var(--gradiente-colorido));
   box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.25);
 }
 div#menu-lista-links {
+  /* Painel do menu de navegacao */
   display: none;
   position: fixed;
   top: 10vh; /*Altura do menu nav responsivo*/
@@ -162,7 +166,8 @@ div#menu-lista-links {
   padding: 15px 5px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-div#menu-lista-links li {
+div#menu-lista-links > ul li {
+  /* Cada linha da lista do nav */
   align-items: center;
   text-align: left;
   list-style: none;
@@ -176,6 +181,7 @@ div#menu-lista-links li {
 }
 div#menu-lista-links li > a,
 li#pagina-atual {
+  /* Formatação de texto dos links do nav + indicador da página atual */
   color: var(--cor10);
   text-transform: uppercase;
   font-size: 1.5em;
