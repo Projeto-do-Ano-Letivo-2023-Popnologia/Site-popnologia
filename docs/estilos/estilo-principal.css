@@ -182,15 +182,15 @@ div#menu-lista-links > ul li {
 div#menu-lista-links li > a,
 li#pagina-atual {
   /* Formatação de texto dos links do nav + indicador da página atual */
+  /* Formatação de texto */
   color: var(--cor10);
   text-transform: uppercase;
   font-size: 1.5em;
 }
-div#menu-lista-links li > a > span {
-  display: inline;
-}
+
 div#menu-lista-links li:hover,
 li#pagina-atual {
+  /* Links do nav com mouse passando + página atual */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
   background-image: linear-gradient(to right, var(--gradiente-colorido));
   transition: 1s;
